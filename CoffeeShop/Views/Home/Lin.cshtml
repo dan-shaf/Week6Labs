@@ -1,0 +1,82 @@
+﻿
+@{
+    ViewData["Title"] = "Register";
+}
+
+
+Welcome @CoffeeShop.Controllers.HomeController.loginas!
+<form method="post" action="/home/LinUpdate">
+
+<table>
+    <tr>
+        <th>
+
+        </th>
+        <th>
+
+        </th>
+        <th>
+            Edit
+        </th>
+        </tr>
+        <tr>
+        <th>
+            First Name
+        </th>
+         <th>
+             @CoffeeShop.Controllers.HomeController.first
+        </th>
+        <th>
+            <input type="text" name="first" />
+        </th>
+    </tr>
+        <tr>
+        <th>
+            Last Name
+        </th>
+         <th>
+             @CoffeeShop.Controllers.HomeController.last
+        </th>
+        <th>
+            <input type="text" name="last" />
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Email
+        </th>
+         <th>
+             @CoffeeShop.Controllers.HomeController.email
+        </th>
+        <th>
+            <input type="email" name="email" />
+        </th>
+        
+    </tr>
+    <tr>
+        <th>
+            Change Password
+        </th>
+        <th>
+
+        </th>
+                <th>
+                    <input type="password" name="password" />
+        </th>
+
+    </tr>
+    <tr>
+        <th>
+
+        </th>
+        <th>
+
+        </th>
+                <th>
+                     <input type="submit" value="Update" />
+        </th>
+
+    </tr>
+</table>
+</form>
+        
